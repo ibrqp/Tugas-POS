@@ -21,16 +21,13 @@
 
         <tbody>
 
-            @foreach ($data as $b)
                 <tr>
-                    <td>{{ $b->user_id }}</td>
-                    <td>{{ $b->level_id }}</td>
-                    <td>{{ $b->username }}</td>
-                    <td>{{ $b->nama }}</td>
+                    <td>{{ $data->user_id }}</td>
+                    <td>{{ $data->level_id }}</td>
+                    <td>{{ $data->username }}</td>
+                    <td>{{ $data->nama }}</td>
                 </tr>
-            @endforeach
 
         </tbody>
-
     </table>
 @stop
