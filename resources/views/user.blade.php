@@ -1,9 +1,9 @@
 @extends('adminlte::page')
 
-@section('title', 'Data Barang')
+@section('title', 'Data User')
 
 @section('content_header')
-    <h1>Data Barang</h1>
+    <h1>Data User</h1>
 @stop
 
 @section('content')
@@ -29,5 +29,7 @@
                 </tr>
 
         </tbody>
+
+        
     </table>
 @stop
