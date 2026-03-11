@@ -10,7 +10,7 @@
 
     <table class="table table-bordered">
 
-        <thead>
+        {{-- <thead>
             <tr>
                 <th>ID</th>
                 <th>Level ID</th>
@@ -28,8 +28,16 @@
                     <td>{{ $data->nama }}</td>
                 </tr>
 
+        </tbody> --}}
+        <thead>
+            <tr>
+                <th>Jumlah Pengguna</th>
+            </tr>
+        </thead>
+        <tbody>
+            <td>{{ $data }}</td>
         </tbody>
 
-        
+
     </table>
 @stop
